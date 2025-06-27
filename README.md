@@ -1,35 +1,42 @@
-# vue-sneakers
+# 👟 Vue Sneakers
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Vue](https://img.shields.io/badge/Vue-555555?logo=vue.js)](https://vuejs.org/)
+[![Vue Router](https://img.shields.io/badge/Vue_Router-555555?logo=vue.js)](https://router.vuejs.org/)
+[![Axios](https://img.shields.io/badge/Axios-555555?logo=axios)](https://axios-http.com/)
+[![Vite](https://img.shields.io/badge/Vite-555555?logo=vite)](https://vitejs.dev/)
 
-## Recommended IDE Setup
+### https://hutt4.github.io/vue-sneakers
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Приложение для отображения каталога кроссовок. Реализованы фильтрация, добавление в корзину и избранное.
 
-## Customize configuration
+| Главная страница                        | Избранное                               | Корзина                          |
+| --------------------------------------- | --------------------------------------- | -------------------------------- |
+| ![Главный экрана](screenshots/main.png) | ![Избранное](screenshots/favourite.png) | ![Корзина](screenshots/cart.png) |
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🌟 Особенности
 
-## Project Setup
+- 👟 Просмотр списка товаров
+- 🛒 Добавление и удаление из корзины
+- ❤️ Добавление и удаление из избранного
+- 🔍 Фильтрация и поиск по названию и встроенным фильтрам
+- 🚦 Навигация между страницами (Vue Router)
+- ⚡ Реактивное обновление интерфейса
 
-```sh
+## 🛠 Технологии
+
+- [Vue 3](https://vuejs.org/) - Фреймворк
+- [Vue Router](https://router.vuejs.org/) - Навигация
+- [Axios](https://axios-http.com/) - запросы к API
+- [Vite](https://vitejs.dev/) - Сборка проекта
+
+## 🚀 Быстрый старт
+
+```bash
+git clone https://github.com/huTT4/vue-sneakers.git
+
+cd vue-sneakers
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
