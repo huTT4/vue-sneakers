@@ -19,7 +19,7 @@ provide('back', back)
     <div v-if="favouriteCards.length">
       <FavouriteList />
     </div>
-    <empty-body v-else imgSrc="/emoji-1.png" :click="back">
+    <empty-body v-else imgSrc="/vue-sneakers/emoji-1.png" :click="back">
       <template #header>Закладок нет :(</template>
       <template #descr>Вы ничего не добавляли в закладки</template>
     </empty-body>

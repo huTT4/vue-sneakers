@@ -26,12 +26,12 @@ const orderNumber = inject('orderNumber')
         <DrawerFooter />
       </div>
 
-      <empty-body v-else-if="orderPlaced" imgSrc="/order-success-icon.png" :click="closeDrawer">
+      <empty-body v-else-if="orderPlaced" imgSrc="/vue-sneakers/order-success-icon.png" :click="closeDrawer">
         <template #header>Заказ оформлен!</template>
         <template #descr>Ваш заказ #{{ orderNumber }} скоро будет передан курьерской доставке</template>
       </empty-body>
 
-      <empty-body v-else imgSrc="/package-icon.png" :click="closeDrawer">
+      <empty-body v-else imgSrc="/vue-sneakers/package-icon.png" :click="closeDrawer">
         <template #header>Корзина пустая</template>
         <template #descr>Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.</template>
       </empty-body>

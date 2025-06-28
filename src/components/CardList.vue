@@ -27,7 +27,12 @@ const clearInput = inject('clearInput')
       <EmptyLoadCard v-for="i in 8" :key="i" />
     </template>
 
-    <empty-body v-else-if="!cards.length" imgSrc="/emoji-2.png" :click="clearInput" textBtn="Очистить ввод">
+    <empty-body
+      v-else-if="!cards.length"
+      imgSrc="/vue-sneakers/emoji-2.png"
+      :click="clearInput"
+      textBtn="Очистить ввод"
+    >
       <template #header>Таких товаров нет :(</template>
       <template #descr>Попробуйте ввести что-нибудь другое</template>
     </empty-body>

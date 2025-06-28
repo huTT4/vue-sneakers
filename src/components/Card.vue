@@ -17,7 +17,7 @@ const formattedPrice = computed(() => props.price.toLocaleString('ru-RU'))
 <template>
   <div class="flex flex-col justify-between relative bg-white border border-slate-100 rounded-4xl p-7.5 cursor-pointer shadow-[0_14px_30px_rgba(0,0,0,0.05)] hover:-translate-y-2 hover:shadow-xl transition">
     <button @click="favouriteBtn(imageUrl)" class="cursor-pointer absolute top-7.5 left-7.5 hover:scale-120 transition">
-      <img :src="isFavourite ? '/like-2.svg' : '/like-1.svg'" :alt="isFavourite ? 'Liked' : 'Like'" />
+      <img :src="isFavourite ? '/vue-sneakers/like-2.svg' : '/vue-sneakers/like-1.svg'" :alt="isFavourite ? 'Liked' : 'Like'" />
     </button>
     
     <img :src="imageUrl" alt="Sneaker" />
@@ -31,7 +31,7 @@ const formattedPrice = computed(() => props.price.toLocaleString('ru-RU'))
       </div>
 
       <button @click="addBtn(imageUrl)" class="cursor-pointer hover:scale-120 transition">
-        <img :src="isAdded ? '/checked.svg' : '/plus.svg'" :alt="isAdded ? 'Checked' : 'Add'" />
+        <img :src="isAdded ? '/vue-sneakers/checked.svg' : '/vue-sneakers/plus.svg'" :alt="isAdded ? 'Checked' : 'Add'" />
       </button>
     </div>
   </div>

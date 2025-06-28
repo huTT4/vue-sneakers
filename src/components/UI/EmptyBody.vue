@@ -14,7 +14,7 @@ defineProps({
 
 <template>
   <div class="flex-1 flex flex-col justify-center items-center">
-    <img :class="imgSrc === '/package-icon.png' || imgSrc === '/order-success-icon.png' ? 'h-30' : 'h-17.5'" :src="imgSrc" :alt="imgSrc" />
+    <img :class="imgSrc === '/vue-sneakers/package-icon.png' || imgSrc === '/vue-sneakers/order-success-icon.png' ? 'h-30' : 'h-17.5'" :src="imgSrc" :alt="imgSrc" />
     <div class="mt-3 mb-8 text-center">
       <h3 class="font-bold text-[22px] mb-2">
         <slot name="header"></slot>

@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import HomePage from '@/views/HomePage.vue'
 import FavouritesPage from '@/views/FavouritesPage.vue'
@@ -10,7 +10,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   linkActiveClass: 'active',
   linkExactActiveClass: 'active'
 })
